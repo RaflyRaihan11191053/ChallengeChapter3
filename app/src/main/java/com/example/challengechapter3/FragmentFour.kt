@@ -33,7 +33,7 @@ class FragmentFour : Fragment() {
                 binding.etSukuN.text.toString().toInt()
             )
 
-            val deret = FragmentFourDirections.actionFragmentFourToFragmentThree(data,)
+            val deret = FragmentFourDirections.actionFragmentFourToFragmentThree(data, args.name)
             it.findNavController().navigate(deret)
         }
 

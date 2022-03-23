@@ -30,7 +30,9 @@ class FragmentThree : Fragment() {
         binding.tvName.text = "Hello, $userName"
 
         binding.btnScreenThree.setOnClickListener {
-            it.findNavController().navigate(R.id.action_fragmentThree_to_fragmentFour)
+            val data = DataUser(0,0,0)
+            val name = FragmentThreeDirections.actionFragmentThreeToFragmentFour(data, userName)
+            it.findNavController().navigate(name)
         }
 
         with(binding) {

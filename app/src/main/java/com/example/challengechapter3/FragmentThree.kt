@@ -18,7 +18,7 @@ class FragmentThree : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentThreeBinding.inflate(layoutInflater)
         return binding.root
     }
@@ -30,8 +30,7 @@ class FragmentThree : Fragment() {
         binding.tvName.text = "Hello, $userName"
 
         binding.btnScreenThree.setOnClickListener {
-            val data = DataUser(0,0,0)
-            val name = FragmentThreeDirections.actionFragmentThreeToFragmentFour(data, userName)
+            val name = FragmentThreeDirections.actionFragmentThreeToFragmentFour(userName)
             it.findNavController().navigate(name)
         }
 

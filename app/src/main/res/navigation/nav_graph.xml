@@ -23,9 +23,6 @@
             android:id="@+id/action_fragmentFour_to_fragmentThree"
             app:destination="@id/fragmentThree" />
         <argument
-            android:name="kirimData"
-            app:argType="com.example.challengechapter3.DataUser" />
-        <argument
             android:name="name"
             app:argType="string"
             android:defaultValue="Umat Nabi" />

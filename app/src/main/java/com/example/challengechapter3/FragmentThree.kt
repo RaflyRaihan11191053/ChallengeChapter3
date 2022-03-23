@@ -43,11 +43,22 @@ class FragmentThree : Fragment() {
 
                 val deretAritmatika = sukuAwal + selisih * (sukuN - 1)
 
-                tvHasilDeret.visibility = View. VISIBLE
-                tvHasilDeret.text = "Suku Awal: $sukuAwal\nSelisih: $selisih\nSuku ke-n: $sukuN\n Angka Deret Aritmatika yang kamu cari adalah: $deretAritmatika"
+                tvSukuAwal.text = "Suku awal: $sukuAwal"
+                tvSelisih.text = "Selisih: $selisih"
+                tvSukuN.text = "Suku ke-n: $sukuN"
+                tvHasil.text = "Bilangan deret aritmatika yang kamu cari adalah: $deretAritmatika"
+                btnScreenThree.visibility = View.GONE
+                ivFragmentThree.visibility = View.VISIBLE
+                tvSukuAwal.visibility = View.VISIBLE
+                tvSelisih.visibility = View.VISIBLE
+                tvSukuN.visibility = View.VISIBLE
+                tvHasil.visibility = View.VISIBLE
 
             } else {
-                tvHasilDeret.visibility = View. GONE
+                tvSukuAwal.visibility = View.GONE
+                tvSelisih.visibility = View.GONE
+                tvSukuN.visibility = View.GONE
+                tvHasil.visibility = View.GONE
             }
         }
 

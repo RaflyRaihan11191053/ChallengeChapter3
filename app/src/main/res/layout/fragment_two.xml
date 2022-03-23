@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_screen_two"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:layout_width="200dp"
         android:layout_height="200dp" />
 

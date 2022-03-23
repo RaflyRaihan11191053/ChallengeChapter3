@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_fragmentFour_to_fragmentThree"
             app:destination="@id/fragmentThree" />
+        <argument
+            android:name="kirimData"
+            app:argType="com.example.challengechapter3.DataUser" />
     </fragment>
     <fragment
         android:id="@+id/fragmentTwo"
@@ -40,6 +43,11 @@
         <action
             android:id="@+id/action_fragmentThree_to_fragmentFour"
             app:destination="@id/fragmentFour" />
+        <argument
+            android:name="hasilDeret"
+            app:argType="com.example.challengechapter3.DataUser"
+            app:nullable="true"
+            android:defaultValue="@null" />
         <argument
             android:name="name"
             app:argType="string"

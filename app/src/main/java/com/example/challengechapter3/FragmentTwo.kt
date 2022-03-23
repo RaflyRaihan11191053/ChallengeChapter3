@@ -26,7 +26,7 @@ class FragmentTwo : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnScreenTwo.setOnClickListener {
-            val userName = FragmentTwoDirections.actionFragmentTwoToFragmentThree(binding.etName.text.toString())
+            val userName = FragmentTwoDirections.actionFragmentTwoToFragmentThree(null, binding.etName.text.toString())
             it.findNavController().navigate(userName)
         }
 

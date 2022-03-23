@@ -32,6 +32,25 @@ class FragmentThree : Fragment() {
         binding.btnScreenThree.setOnClickListener {
             it.findNavController().navigate(R.id.action_fragmentThree_to_fragmentFour)
         }
+
+        with(binding) {
+            val hasil = args.hasilDeret
+
+            if (hasil != null) {
+                val sukuAwal = hasil.sukuAwal
+                val selisih = hasil.selisih
+                val sukuN = hasil.sukuN
+
+                val deretAritmatika = sukuAwal + selisih * (sukuN - 1)
+
+                tvHasilDeret.visibility = View. VISIBLE
+                tvHasilDeret.text = "Suku Awal: $sukuAwal\nSelisih: $selisih\nSuku ke-n: $sukuN\n Angka Deret Aritmatika yang kamu cari adalah: $deretAritmatika"
+
+            } else {
+                tvHasilDeret.visibility = View. GONE
+            }
+        }
+
     }
 
 }

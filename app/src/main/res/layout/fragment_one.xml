@@ -18,18 +18,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <ImageView
+        android:id="@+id/iv_welcome"
+        android:src="@drawable/ic_welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_screen_one"
+        android:layout_marginTop="32dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
     <TextView
         android:id="@+id/tv_fragment_one"
-        android:text="Selamat Datang di Aplikasi Deret Bilangan. Tekan Tombol Di Bawah Untuk Melanjutkan"
+        android:text="Selamat Datang di Aplikasi Deret Bilangan Aritmatika. Tekan Tombol Di Bawah Untuk Melanjutkan!"
         android:textAlignment="center"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/btn_screen_one"
-        android:layout_marginBottom="64dp"
-        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_welcome"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
@@ -38,8 +48,8 @@
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_fragment_one"
+        android:layout_marginTop="24dp"
         android:layout_width="wrap_content"
         android:layout_height="56dp" />
 

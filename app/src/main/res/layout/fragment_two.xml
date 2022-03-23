@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/tv_screen_two"
-        android:text="Screen 2"
+        android:text="@string/text_screen2"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
 
     <TextView
         android:id="@+id/tv_content"
-        android:text="Sebelum mulai, kenalan dulu yuk! Nama kamu siapa?"
+        android:text="@string/text_introduce"
         android:textSize="16sp"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -44,7 +44,7 @@
 
     <EditText
         android:id="@+id/et_name"
-        android:hint="   Masukkan Nama"
+        android:hint="@string/input_name"
         android:background="@drawable/input_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@
 
     <Button
         android:id="@+id/btn_screen_two"
-        android:text="Go To Screen 3"
+        android:text="@string/btn_two"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/tv_screen_three"
-        android:text="Screen 3"
+        android:text="@string/text_screen3"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +88,7 @@
 
     <Button
         android:id="@+id/btn_screen_three"
-        android:text="Go To Screen 4"
+        android:text="@string/btn_three"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

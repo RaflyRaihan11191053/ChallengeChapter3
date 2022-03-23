@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/tv_screen_one"
-        android:text="Screen 1"
+        android:text="@string/text_screen1"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
 
     <TextView
         android:id="@+id/tv_fragment_one"
-        android:text="Selamat Datang di Aplikasi Deret Bilangan Aritmatika. Tekan Tombol Di Bawah Untuk Melanjutkan!"
+        android:text="@string/text_welcome"
         android:textAlignment="center"
         android:textSize="16sp"
         android:textColor="@color/black"
@@ -44,7 +44,7 @@
 
     <Button
         android:id="@+id/btn_screen_one"
-        android:text="Go To Screen 2"
+        android:text="@string/btn_one"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

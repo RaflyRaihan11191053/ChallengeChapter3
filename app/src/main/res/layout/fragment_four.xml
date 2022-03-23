@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/tv_screen_four"
-        android:text="Screen 4"
+        android:text="@string/text_screen4"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,8 +30,8 @@
 
     <TextView
         android:id="@+id/tv_content_four"
-        android:text="Silahkan masukkan input kamu"
-        android:textSize="16sp"
+        android:text="@string/input_text"
+        android:textSize="18sp"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
 
     <EditText
         android:id="@+id/et_suku_awal"
-        android:hint="   Masukkan Suku Awal"
+        android:hint="@string/input_suku_awal"
         android:inputType="number"
         android:background="@drawable/input_text"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
 
     <EditText
         android:id="@+id/et_selisih"
-        android:hint="   Masukkan Selisih"
+        android:hint="@string/input_selisih"
         android:background="@drawable/input_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
 
     <EditText
         android:id="@+id/et_suku_n"
-        android:hint="   Masukkan Suku ke-n"
+        android:hint="@string/input_suku_n"
         android:background="@drawable/input_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +79,7 @@
 
     <Button
         android:id="@+id/btn_screen_four"
-        android:text="Back To Screen 3"
+        android:text="@string/btn_four"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

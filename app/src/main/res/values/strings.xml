@@ -2,4 +2,19 @@
     <string name="app_name">ChallengeChapter3</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_screen1">Screen 1</string>
+    <string name="text_welcome">Selamat Datang di Aplikasi Deret Bilangan Aritmatika. Tekan Tombol Di Bawah Untuk Melanjutkan!</string>
+    <string name="btn_one">Go To Screen 2</string>
+    <string name="text_screen2">Screen 2</string>
+    <string name="text_introduce">Sebelum mulai, kenalan dulu yuk! Nama kamu siapa?</string>
+    <string name="input_name">Masukkan Nama</string>
+    <string name="btn_two">Go To Screen 3</string>
+    <string name="text_screen3">Screen 3</string>
+    <string name="btn_three">Go To Screen 4</string>
+    <string name="text_screen4">Screen 4</string>
+    <string name="input_text">Silahkan masukkan input kamu</string>
+    <string name="input_suku_awal">Masukkan Suku Awal</string>
+    <string name="input_selisih">Masukkan Selisih</string>
+    <string name="input_suku_n">Masukkan Suku ke-n</string>
+    <string name="btn_four">Back To Screen 3</string>
 </resources>
